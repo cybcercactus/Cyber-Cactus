@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <img class="cactus-logo" src="img/c3.png">
+        <title>Diffie Hellman Encryption Algorithm</title>
+        <link rel="shortcut icon" type="image/png" href="img/c3.png">
+        <link rel="stylesheet" href="dh.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dynalight&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color:rgb(238, 198, 202);">
+        <p class="dh-web-title">
+            Diffie-Hellman Key Management
+        </p>
+
+        <div class="dh-div">
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ESPT_36pUFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="dh-video">
+                <p>
+                    <a href="https://www.youtube.com/watch?v=ESPT_36pUFc&t=237s"target="_blank">The Mathematics of Diffie-Hellman Algorithm</a>
+                </p>
+            </div>
+            
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <p class="try">
+            Asymmetric Encryption Algorithm
+        </p>
+
+        <br>
+
+        <p class="p1">
+            Diffie-Hellman Key Management is also one of the most used asymeetric cryptoggraphy algorithms used to exchange keys between parties. It was invented in 1976 by Whitefield Diffie and Martin Hellman <a href="https://learning.oreilly.com/videos/encryption/9781491944363/9781491944363-video246859/" target="_blank"><u>(Learn more about the history of Diffie-Hellman Key Exchange)</u></a>. The Diffie Hellman algorithm does not provide encrption and decryption for the users as it does not convert plaintest into a ciphertext, nor ciphertext into a plaintext.
+            The primary prupose of this algorithm in the realm f crptography is to exhcange keys which enables parties to establish a secure communication. Thus, the Diffie Hellman key exchange algorithm ensures the users confidentialit of th data. This is because confidentiality refers to the that the data is only available to those have are authroized and the information is kept in secret to those who does not have authority or access. 
+            In detail, the algorithm enalbes its users to produce two priavte keys as shown onthe images down below. The process of this algorithm starts with two parties, P1 and P2 with agreement on that 1 < a < b. Next, goes through the math shown on the images down below. In the end, the value of K1 and K2 should equal to each oher. 
+        </p>
+
+        <p class="dh-image-text">
+            Diffie Hellman Key Agreement
+        </p>
+
+        <center><img class="rsad-img" src="img/dh.jpg" border="4"
+            width="600px"
+            height="auto"</center>
+
+        <br><br><br><br><br>
+
+        <p class="block-cipher">
+            Block Cipher
+        </p>
+
+        <p class="blockp">
+            Block cipher is one of the symmetric encryption algorithms that is currently in use. Before discussing in detail about the block cipher, I would like to mention what determines the strength of the crytography. The cryptographic stregnth is determined by: 1. the length, randomness, and the unpredicatbility of the key 2. algorithms ability to resist/withstand known attacks 3. a lack of back doors or other intentional vulnearbilties.
+            Now, coming back to bloc cipher. Block cipher encrypts and decrypts blocks of bits. Plaintext are encrypted into blocks of bits (64, 92, 128). Which then the algorithm takes digital key and the plaintext to decrypt and produces the ciphertext. Some well-known block ciphers are Advanced Encryption Standard (AES Encryption) and Data Encryption Standard (DES Encryption). 
+            AES encrypion has key length of 128, 192, 256 bits, block size of 128, 192, 256 bits as well. The greater bit size increases the strength of the encryption and decryption. Moreover, the encryption proces involves 10, 12, 14 rounds for 128, 192, 256 bits respectively. The process of the AES encryption: 1. Add round key: XORing the key and the plaintext 2. SubBytes: substitute the plaintext according to a table 3. shiftrows:the bits woll be written in a matrix, and some rows will be shifted 4. mixcolumns: the columns will be shifted.
+            DES encryption has key length of 56 bits and block size of 64 bits. The encryption process invovles 16 rounds, hence it is time consuming. Moreover, DES is an outdated encryption algorithm and have great vulnerabilities.  
+        </p>
+
+        <center><img class="bcipher-img" src="img/blockcipher.jpg" border="4"
+            width="600px"
+            </center>
+
+        <br><br><br><br><br>
+
+        <p class="stream-cipher">
+            Stream Cipher
+        </p>
+
+        <p class="streamp">
+            Stream cipher encrypts and decrypts bit by bit. The process of the stream cipher: 1. digital key and nonce (periodically changed random number) insert to encryption algorithm 2. keystream is produced 3. keystream and plaintext XOR 4. ciphertext is produced. The process is shown down below as an image to help visualize the encryption procee of the stream cipher.  The XORing process is where two input, in this case the keystream and the plaintext data in bits, produces a binary value of 0 or 1. In detail, when the value of keystream is 0 and the plaintext of bit in 1, the XORing process produces the new value of 1. Moreover, when the binary value of the keystream and the plaintext are the same, it will output a zero and when the two values are the same <a href="https://www.khanacademy.org/computing/computer-science/cryptography/ciphers/a/xor-bitwise-operation" target="_blank"><u>(Learn more about the XORing process)</u></a>. 
+        </p>
+
+
+        <table border="3px">
+            <tr>
+                <th colspan="2">
+                    Inputs
+                </th>
+                <th>
+                    Output
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    A
+                </td>
+                <td>
+                    B
+                </td>
+                <td>
+                    X
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    0
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    0
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    0
+                </td>
+                <td>
+                    1
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    1
+                </td>
+                <td>
+                    0
+                </td>
+            </tr>
+
+        </table><br><br><br>
+
+        <center><img class="scipher-img" src="img/streamcipher.jpg" border="4"
+            width="600px"
+            height="auto"</center>
+
+    </body>    
+</html>

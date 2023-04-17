@@ -1,0 +1,153 @@
+.cactus-logo {
+  width: 100px;
+  margin-bottom: -60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.web-title {
+   font-family: 'Gajraj One', cursive;
+   font-size: 80px;
+   font-weight: bold;
+   margin-left: 3px;
+   margin-bottom: 0px;
+   text-align: center;
+   color: rgb(255, 111, 89);
+   margin-top: 20px;
+}
+
+.rsa-web-title {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(90, 106, 77);
+ }
+
+ .dh-web-title {
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(11, 0, 51);
+ }
+
+ .name {
+   font-family: 'Poiret One', cursive;
+   font-weight: bold;
+   font-size: 18px;
+   text-align: center;
+   margin-top: -20px;
+   color: rgb(243, 223, 174);
+ }
+
+ .rsa_encryption_algorithm {
+  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
+  margin-top: 100px;
+  color:white;
+  font-size: 33px;
+  margin-bottom: 10px;
+  background-color: rgb(238, 198, 202);
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 100px;
+ }
+
+ .span-exmaple:hover {
+    color: black;
+  }
+ 
+  .span-exmaple {
+    cursor: pointer;
+  }
+
+ .Diffie_Hellman_Algorithm {
+    font-family: 'Covered By Your Grace', cursive;
+    text-align: center;
+    margin-top: 100px;
+    color:white;
+    font-size: 33px;
+    margin-bottom: 10px;
+    background-color: rgb(238, 198, 202);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 100px; 
+ }
+
+ .spa2:hover {
+   color: black;
+ }
+
+ .spa2 {
+   cursor: pointer;
+ }
+
+
+.rsa_link {
+ font-family: 'Covered By Your Grace', cursive;
+ text-align: center;
+ margin-top: 0px;
+ font-size: 15px;
+ background-color: rgb(238, 198, 202);
+ color: white;
+ border: none;
+ height: 32px;
+ width: 200px;
+ border-radius: 20px;
+ cursor: pointer;
+ font-weight: bold;
+ transition: box-shadow 0.16s;
+ margin-left: 20px;
+}
+
+.rsa_link:hover {
+  box-shadow: 0px 13px 10px rgba(238, 198, 202, 0.15);
+}
+
+.rsa_link:active {
+ opacity: 0.7;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: rgb(255, 255, 255);
+}
+/* mouse over link */
+a:hover {
+    color: rgb(90, 106, 77);
+    border-bottom: none;
+}
+/* active link */
+a:active {
+    color: black;
+}
+
+.welcome-page {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Notable', sans-serif;
+}
+
+.cred {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(248, 213, 104);
+}
+
+.about-web {
+  font-size: 15px;
+  text-align: center;
+  margin-top: -40px;
+  color: rgb(230, 219, 189);
+}

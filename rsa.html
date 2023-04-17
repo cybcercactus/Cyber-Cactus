@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <metaname="viewport" content="width=device-width, initial-scale=1">
+        <img class="cactus-logo" src="img/c3.png">
+        <title>Rivest Shamir Adleman Encryption Algorithm</title>
+        <link rel="shortcut icon" type="image/png" href="img/c3.png">
+        <link rel="stylesheet" href="rsaweb.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color:rgb(243, 223, 174);">
+        <p class="rsa-web-title">
+            Rivest Shamir Adleman Algorithm
+        </p>
+
+        <div class="rsa-div">
+            <div>
+                <br>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4zahvcJ9glg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="rsa-video">
+                <p>
+                    <a href="https://www.youtube.com/watch?v=4zahvcJ9glg"target="_blank">The Mathematics of RSA Algorithm</a>
+                </p>
+            </div>
+            
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <p class="try">
+            Asymmetric Encryption Algorithm
+        </p>
+
+        <br>
+
+        <p class="aeap">
+            Rivest Shamir Adleman Algorithm is one of the asymmetric encryption algorithm. This algorithm is also know as the RSA encryption. The RSA encryption algorithm was first introduced in 1977 by Ron Rivest, Adi Shamir, and Leonard Adleman. Hence the RSA came from the last names of the inventors <a href="https://www.invent.org/inductees/leonard-adleman#:~:text=Introduced%20in%201977%20by%20MIT,Martin%20Hellman%2C%20and%20Ralph%20Merkle" target="_blank"><u>(Learn more about the inventors of the RSA Algorithm)</u></a>.
+            The RSA algorithm is arguably one of the most used cryptography method in the modern era for several reasons. The first to why RSA encryption algorithm is widely used is due its asymmetric encryption characteristic. In cryptography, asymmetric algorithm refers to cryptography algorithm that has two distinct keys, where there is a key to encrypt the plaintext data and there is a private to decrypt the ciphertext. 
+             In contrast to symmetric encryption algorithms, asymmetric encryption algorithms has an alternating approach to secure communication. The general process of the asymmetric algorithm is: 1. Sender Input: Plaintext Data 2. Public key to encrypt 3. Ciphertext is produced 4. Receiving end: decrypt ciphertext using private key 5. Decrypted ciphertext. Hence, the Rivest Shamir Adleman algorithm also follows the aforementioned cryptographic process. 
+             In general, the asymmetric encryption algorithm is invented to mitigate the risks of the symmetric encryption algorithms, hence it is more complicated and robust. 
+             Next, the second advantage of asymmetric encryption algorithm is that is provides confidentiality, authenticity, and non-repudiation to the data. Confidentiality is one of four main goals cryptopgraphy. This is because cryptography refers to when cipher is used to encrypt and decrypt plaintext data (private messages) for secure of communication.
+             Providing authenticity is confimring the identity of an entity. In other words, asymmetric encryption allows to confirm the identity of the entity. The non-repudiation enables the sender/user to prevent a party from denying a previous statement or action <a href="https://www.geeksforgeeks.org/cryptography-and-network-security-principles/" target="_blank"><u>(Learn more about the four goals of cryptography)</u></a>.
+             Moreover, asymmetric encryption algorithms are often used to encrypt small amount of data. Lastly, some examples of asymmetric encryption algorithms other than the RSA includes Diffie-Hellman (which is prepared and shared on Cyber Cactus) and Elliptic-Curve cryptography.
+             On the other hand, the disadvantages of asymmetric encryption algorithms is that the process to encrypt and decrypt is slower than symmetric encryption algorithms and thus results into requiring more computational power. 
+             Additionally, the length of the keys of asymmetric encryption algorithms are usually longer than symmetric encryption algorithms. 
+             The application of the Rivest Shamir Adleman encryption algorithms are for encrypting data and digital signatures <a href="https://www.sciencedirect.com/topics/computer-science/asymmetric-cryptography#:~:text=Asymmetric%20encryption%20is%20used%20in,exchange%20over%20the%20public%20network.&text=Two%20keys%20(public%20and%20private,distributed%20without%20confidentially%20being%20compromised." target="_blank"><u>(Learn more about use of asymmetric cryptography: key excahnge, digital signatures, SSL/TLS certificates, personal authentication certificates, verify data integrity, and authenticate parties)</u></a>.
+            The Mathematics behind the Rivest Shamir Adleman cryptography algorithm is shown on image down below. The first step of is encryption. Public key n and e is generated where the value of n is equal to P * Q. Where P and Q are both prime numbers and the e is not a factor of n. Next, to produce the ciphertext of the plaintext, the ASCII decimal value of the plaintext is used. To decrypt the the ciphertext, the receiving end will require a private key, d. Where, d is ([k * ∅(n)] + 1) / e and ∅(n) = (P - 1)(Q - 1). The plaintext data will require the value of C which is the ciphertext. 
+            </p>
+
+        <p class="rsae-image-text">
+            Encryption
+        </p>
+
+        <center><img class="rsae-img" src="img/rsae.jpg" border="4"
+            width="600px"
+            height="auto"></center>
+
+        <p class="rasd-image-text">
+            Decryption
+        </p>
+
+        <center><img class="rsad-img" src="img/rsad.jpg" border="4"
+            width="600px"
+            </center>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p class="resources">
+            External Resources Used
+        </p>
+
+        <table border="10" cellpadding="3" cellspacing="2">
+            <tr>
+                <th>
+                    Topic
+                </th>
+                <th>
+                    Link
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Inventors of RSA encryption algorithm
+                </td>
+                <td>
+                    <a href="https://www.invent.org/inductees/leonard-adleman#:~:text=Introduced%20in%201977%20by%20MIT,Martin%20Hellman%2C%20and%20Ralph%20Merkle" target="_blank">www.invent.org</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Four goals of cryptograhy
+                </td>
+                <td>
+                    <a href="https://www.geeksforgeeks.org/cryptography-and-network-security-principles/" target="_blank">www.geeksforgeeks.org</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Asymmetric cryptography usage
+                </td>
+                <td>
+                    <a href="https://www.sciencedirect.com/topics/computer-science/asymmetric-cryptography#:~:text=Asymmetric%20encryption%20is%20used%20in,exchange%20over%20the%20public%20network.&text=Two%20keys%20(public%20and%20private,distributed%20without%20confidentially%20being%20compromised." target="_blank">www.sciencedirect.com</a>
+                </td>
+            </tr>
+        </p>
+
+
+    </body>    
+</html>
