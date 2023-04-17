@@ -202,3 +202,10 @@ a:active {
     margin-bottom; 3px;
     color: (21, 71, 52);
 }
+
+.cred {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(248, 213, 104);
+}
