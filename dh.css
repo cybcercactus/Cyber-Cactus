@@ -171,6 +171,7 @@ a:active {
      font-size: 50px;
      margin-bottom: 13px;
      font-family: 'Rye', cursive;
+     color: rgb(255, 42, 19);
  }
 
   .block-cipher{
@@ -178,6 +179,7 @@ a:active {
       font-size: 50px;
        margin-bottom: 13px;
      font-family: 'Lucida Sans';
+      color: rgb(160, 19, 255);
   }
 
  .p1 {
